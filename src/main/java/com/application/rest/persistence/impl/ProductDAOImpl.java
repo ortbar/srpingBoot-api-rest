@@ -32,7 +32,7 @@ public class ProductDAOImpl implements IProductDAO {
     // seria una consulta extraordinaria diferente de lo que ofrece CRUDREPOSITORY, asi que lo definimos en el mismo ProductRepository
     @Override
     public List<Product> findByPriceInRange(BigDecimal minPrice, BigDecimal maxPrice) {
-        return productRepository.findProductByPriceBetween(minPrice,maxPrice);
+        return productRepository.findProductByPriceInRange(minPrice, maxPrice);
     }
 
     @Override

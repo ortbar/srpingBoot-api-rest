@@ -1,5 +1,5 @@
 package com.application.rest.persistence;
-// DAO = patron de diseño, abstracción que se utiliza para separar la lógica de acceso a datos del resto de la aplicación.
+// DAO = DATA ACCESS OBJECT. - patron de diseño, abstracción que se utiliza para separar la lógica de acceso a datos del resto de la aplicación.
 
 // Separar la lógica de acceso a datos del negocio.
 // Facilitar el mantenimiento y reutilización del código.
